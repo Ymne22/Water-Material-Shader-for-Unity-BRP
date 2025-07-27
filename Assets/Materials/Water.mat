@@ -1,0 +1,296 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Water
+  m_Shader: {fileID: 4800000, guid: 919eeff33be7cb44990c30d5847606b0, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - CHECKERBOARD_RENDER
+  - USE_CAUSTICS
+  - USE_DITHERING
+  - USE_FOAM
+  - USE_GLOBAL_RIPPLES
+  - USE_INTERSECTION_RIM
+  - USE_INTERSECTION_RIPPLES
+  - USE_NORMAL_MAPS
+  - USE_OILY_SHEEN
+  - USE_SSR
+  - USE_SUBSURFACE_SCATTERING
+  - USE_SURFACE_NOISE
+  m_InvalidKeywords:
+  - USE_DEBRIS
+  - USE_GERSTNER_WAVES
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CausticsTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DebrisTex:
+        m_Texture: {fileID: 2800000, guid: 7d4e91298b0336c47be2a2a6431c93d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTex:
+        m_Texture: {fileID: 2800000, guid: 78eeef353bdc0d148992926d69d81d1d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeightMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 11321b63d67191040b0eb53eb40d3708, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap2:
+        m_Texture: {fileID: 2800000, guid: 11321b63d67191040b0eb53eb40d3708, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SurfaceNoiseTex:
+        m_Texture: {fileID: 2800000, guid: e0b8bdaf3e6840f4eafbfbe103b9da24, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BumpScale: 1
+    - _CausticsContrast: 3
+    - _CausticsContrast1: 4
+    - _CausticsContrast2: 4
+    - _CausticsContrast3: 4
+    - _CausticsDensity: 0.92
+    - _CausticsDepthFade: 2
+    - _CausticsDistortion: 1
+    - _CausticsIntensity: 0.19
+    - _CausticsIntensity1: 0.125
+    - _CausticsIntensity2: 0.05
+    - _CausticsIntensity3: 0.025
+    - _CausticsScale: 2
+    - _CausticsScale1: 1
+    - _CausticsScale2: 2
+    - _CausticsScale3: 4
+    - _CausticsSharpness: 1
+    - _CausticsSpeed: 4
+    - _CausticsSpeed1: 5
+    - _CausticsSpeed2: 4
+    - _CausticsSpeed3: 3
+    - _CausticsTiling: 0.5
+    - _CausticsWarpScale: 0.1
+    - _CausticsWarpScale1: 1.65
+    - _CausticsWarpScale2: 1.5
+    - _CausticsWarpScale3: 4
+    - _CausticsWarpStrength: 0.249
+    - _CausticsWarpStrength1: 0.5
+    - _CausticsWarpStrength2: 0.5
+    - _CausticsWarpStrength3: 0.4
+    - _Checkerboard: 1
+    - _ChromaticAberration: 0.015
+    - _ChromaticAberrationNoise: 1
+    - _CrestFoamThreshold: 0.7
+    - _Cutoff: 0.5
+    - _DebrisDistortion: 0.1
+    - _DebrisStrength: 0
+    - _DebrisTiling: 4
+    - _DepthFalloff: 0.45
+    - _DetailNormalMapScale: 1
+    - _DitherStrength: 0.1
+    - _DstBlend: 0
+    - _FlowSpeed: 1
+    - _FlowStrength: 0.1
+    - _FlowTiling: 1
+    - _FoamCrestThreshold: 0.25
+    - _FoamCutoff: 0
+    - _FoamDepth: 0.57
+    - _FoamDepthFalloff: 1.75
+    - _FoamDissolveSpeed: 3.5
+    - _FoamIntensity: 1.5
+    - _FoamNoiseScale: 0.2
+    - _FoamScale: 0.5
+    - _FoamSpeed: 0.1
+    - _FoamTiling: 1
+    - _FresnelPower: 5
+    - _GlobalRippleScale: 2.5
+    - _GlobalRippleSpeed: 1
+    - _GlobalRippleStrength: 0.015
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _NoiseAmplitude: 0.15
+    - _NoiseScale: 0.05
+    - _NoiseSpeed: 0.2
+    - _NoiseStrength: 0.1
+    - _NoiseTiling: 10
+    - _NormalScale: 0.041
+    - _NormalStrength: 0.25
+    - _NormalTiling: 0.15
+    - _NormalTiling2: 0.25
+    - _OcclusionStrength: 1
+    - _OilNoiseScale: 1
+    - _OilNoiseSpeed: 0.1
+    - _OilStrength: 0.125
+    - _Parallax: 0.02
+    - _ParallaxDepth: 0.371
+    - _ParticleIntensity: 20
+    - _ParticleSize: 50
+    - _ParticleSpeckSharpness: 75
+    - _ParticleSpecularSharpness: 400
+    - _ParticleSpeed: 0.8
+    - _ReflectionIntensity: 0.5
+    - _ReflectionStrength: 1
+    - _RefractionBlur: 3
+    - _RefractionDepthFactor: 1
+    - _RefractionDistortion: 0.02
+    - _RefractionStrength: 0.035
+    - _RimIntensity: 0.5
+    - _RimPower: 4
+    - _RimWidth: 0.5
+    - _RippleFalloff: 0.6
+    - _RippleScale: 6
+    - _RippleSpeed: 1
+    - _RippleStrength: 1
+    - _Roughness: 0.1
+    - _SSR_AngleFalloff: 8
+    - _SSR_DitherAmount: 8.72
+    - _SSR_EdgeFalloff: 0.5
+    - _SSR_Falloff: 1
+    - _SSR_Intensity: 1
+    - _SSR_MaxDistance: 8
+    - _SSR_MaxSteps: 50
+    - _SSR_RefinementSamples: 2
+    - _SSR_Resolution: 0.25
+    - _SSR_Samples: 4
+    - _SSR_StepSize: 1
+    - _SSR_Strength: 0.7
+    - _SSR_Thickness: 1
+    - _ShadowCutoff: 0.5
+    - _ShadowIntensity: 1
+    - _ShadowStrength: 0
+    - _ShoreFoamDepth: 0.5
+    - _Smoothness: 0.9
+    - _SmoothnessTextureChannel: 0
+    - _SparkleDensity: 0.5
+    - _SparkleIntensity: 5
+    - _SparkleSharpness: 250
+    - _SparkleSize: 5
+    - _SparkleSpeed: 1
+    - _SpecularHighlights: 1
+    - _SpecularIntensity: 1
+    - _SpecularStrength: 1
+    - _SrcBlend: 1
+    - _SubsurfaceIntensity: 1
+    - _Tiling: 1
+    - _UVSec: 0
+    - _UseCaustics: 1
+    - _UseDebris: 1
+    - _UseDithering: 1
+    - _UseFlowMap: 0
+    - _UseFoam: 1
+    - _UseGerstnerWaves: 1
+    - _UseGlobalRipples: 1
+    - _UseIntersectionRim: 1
+    - _UseIntersectionRipples: 1
+    - _UseNormalMaps: 1
+    - _UseOilySheen: 1
+    - _UseSSR: 1
+    - _UseSubsurface: 1
+    - _UseSurfaceNoise: 1
+    - _WaveAmplitude: 0.25
+    - _WaveFrequency: 0.15
+    - _WaveSpeed: 0.5
+    - _WaveSteepness: 0.1
+    - _ZWrite: 1
+    m_Colors:
+    - _CausticsDepthRange: {r: 1, g: 10, b: 0, a: 0}
+    - _CausticsSpeed: {r: 0.01, g: 0.01, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DebrisColor: {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 1}
+    - _DebrisSpeed: {r: 0.01, g: 0.005, b: 0, a: 0}
+    - _DeepColor: {r: 0.15726236, g: 0.36689147, b: 0.5849056, a: 1}
+    - _DepthColor: {r: 0.049999982, g: 0.14999998, b: 0.29999998, a: 1}
+    - _DitherDepthColor: {r: 0.09999997, g: 0.09999997, b: 0.09999997, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FlowSpeed: {r: 0.01, g: 0.01, b: 0, a: 0}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FoamFlowSpeed: {r: 0.05, g: 0.03, b: 0, a: 0}
+    - _FoamSpeed: {r: 0.05, g: 0.05, b: 0, a: 0}
+    - _FoamTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _GlobalRippleDirection: {r: 1, g: 1, b: 0, a: 0}
+    - _NormalSpeed1: {r: 0.002, g: 0.002, b: 0, a: 0}
+    - _NormalSpeed2: {r: -0.002, g: -0.002, b: 0, a: 0}
+    - _ReflectionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 0.45817018, g: 0.65017974, b: 0.8301887, a: 1}
+    - _ShadowColor: {r: 0.09999997, g: 0.14999998, b: 0.19999996, a: 1}
+    - _ShallowColor: {r: 0.7311321, g: 0.86644477, b: 1, a: 1}
+    - _SubsurfaceColor: {r: 0.24150053, g: 0.58767164, b: 0.764151, a: 1}
+    - _WaterColor: {r: 0.19999996, g: 0.6, b: 0.8, a: 0.5}
+    - _WaveA: {r: 1, g: 0, b: 0.5, a: 0.25}
+    - _WaveB: {r: 0, g: 1, b: 0.25, a: 0.5}
+    - _WaveC: {r: 1, g: 1, b: 0.15, a: 1}
+    - _WaveDirection1: {r: 1, g: 0.2, b: 0, a: 0}
+    - _WaveDirection2: {r: -0.7, g: 0.7, b: 0, a: 0}
+    - _WaveDirection3: {r: 0.3, g: -0.9, b: 0, a: 0}
+    - _WaveDirection4: {r: 0.8, g: 0.6, b: 0, a: 0}
+    - _WaveScale: {r: 1, g: 0.8, b: 0.6, a: 0.4}
+    - _WaveSpeed: {r: 0.01, g: 0.01, b: -0.05, a: -0.05}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
